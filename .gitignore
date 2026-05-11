@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+venv/
+.env
+.venv
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arduino build artifacts (if any)
+*.elf
+*.hex
+*.eep
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Large dataset files (optional – keep small example CSVs, ignore huge ones)
+# intrusion_events.csv   # uncomment if you don't want to commit dataset at all
